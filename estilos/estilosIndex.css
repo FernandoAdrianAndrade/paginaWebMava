@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    display: inline;
+}
+
+.barraNavegacion{
+    width: 100vw;
+    background: #E67E22;
+    height: 13vh;
+    text-align: right;
+}
+.barraNavegacion__logotipo{
+    width: 15vw;
+    background: #85C1E9;
+    text-align: center;
+    float: left;
+    height: 13vh;
+}
+#logotipo{
+    width: 6em;
+    height: 6em;
+    margin: 0;
+    padding: 0;
+}
+.barraNavegacion__opciones{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    float: right;
+    font-size: 1.5em;
+    font-family: 'Yrsa', serif;
+    line-height: 3em;
+    color: #154360; 
+}
+
+
+
+
