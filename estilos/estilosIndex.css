@@ -2,17 +2,12 @@
     padding: 0px;
     margin: 0px;
 }
-li{
-    display: inline;
-}
-
 .barraNavegacion{
-    width: 100vw;
-    background-color:#E67E22;
-    height: 13vh;
     text-align: right;
     box-shadow: 0em .6em 3em grey;
     display: block;
+    position: sticky;
+    top: 0;
 }
 .barraNavegacion__logotipo{
     width: 15vw;
@@ -27,17 +22,68 @@ li{
     margin: 0;
     padding: .5em;
 }
-.barraNavegacion__lista__opciones{
-    list-style-type: none;
-    margin: .5em;
+.barraNavegacion__lista{
+    width: 100vw;
+    background-color:#E67E22;
+    margin: 0;
     padding: 0;
-    text-align: right;
-    float: right;
-    font-size: 1.5em;
-    font-family: 'Yrsa', serif;
-    line-height: 3em;
-    color: #154360; 
 }
+.barraNavegacion__lista__opciones{
+    list-style: none;
+    height: 13vh;
+    margin: 0;
+    padding: 0;
+}
+.barraNavegacion__lista__opciones__elemento{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+.barraNavegacion__lista__opciones__enlaces{
+    height: 13vh;
+    display: block; 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rebeccapurple;
+    text-decoration: none;
+    background-color: #dddddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.barraNavegacion__lista__opciones__enlaces:hover{
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #barraNavegacion__lista__opciones__facebook{
     width: 1.5em;
@@ -54,42 +100,5 @@ li{
     width: 1.2em;
     height: 1.2em;
 }
-
-#barraNavegacion__lista__opciones__a{
-    padding: 1em .7em;
-    text-align: center;
-}
-
-#barraNavegacion__lista__opciones__b{
-    padding: 1em .7em;
-    text-align: center;
-}
-
-#barraNavegacion__lista__opciones__c{
-    padding: 1em .7em;
-    text-align: center;
-}
-
-#barraNavegacion__lista__opciones__d{
-    padding: 1em .7em;
-    text-align: center;
-}
-
-#barraNavegacion__lista__opciones__e{
-    padding: 1em .7em;
-    text-align: center;
-}
-
-#barraNavegacion__lista__opciones__f{
-    padding: 1em .7em;
-    text-align: center;
-}
-
-#barraNavegacion__lista__opciones__g{
-    padding: 1em .7em;
-    text-align: center;
-}
-
-
 
 
