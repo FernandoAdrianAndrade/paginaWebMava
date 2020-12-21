@@ -83,4 +83,15 @@ a:hover, a:focus {
     border-radius: .6em;
 }
 
-
+.principal{
+    background-image: url(../imagenes/redCoca.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 10vh;
+    overflow: hidden;
+    width: 70vw;
+    height: 70vh;
+}
