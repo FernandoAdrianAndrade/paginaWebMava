@@ -1,0 +1,29 @@
+body{
+    overflow: auto;
+}
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+    display: none;
+}
+
+body::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+body::-webkit-scrollbar-button:increment,body::-webkit-scrollbar-button {
+    display: none;
+} 
+
+body::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #cedbe4;
+    border-radius: 20px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #7c7a75;
+    opacity: .5;  
+}

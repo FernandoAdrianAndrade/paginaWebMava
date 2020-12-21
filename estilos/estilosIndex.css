@@ -4,7 +4,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-a {
+.top a {
     text-decoration: none;
     background-image: linear-gradient(#F4874B, #192e19);
     background-position: 0% 100%;
@@ -23,7 +23,7 @@ a:hover, a:focus {
 }
 
 .top{
-    box-shadow: 0em .6em 3em grey;
+    box-shadow: 0em .1em 1em gray ;
     display: block;
     position: sticky;
     top: 1em;
@@ -84,14 +84,98 @@ a:hover, a:focus {
 }
 
 .principal{
-    background-image: url(../imagenes/redCoca.png);
-    background-size:contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-left: 15vw;
-    margin-right: 15vw;
+    height: 87vh;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+.principal__texto{
+    float: left;
+    width: 40vw;
+    height: 10vh;
+    margin-top: 52vh;
+    margin-left: 5vw;
+    font-size: 1.5em;
+}
+.principal__imagen{
+    height: 60vh;
+    width: 30vw;
+    float: right;
+    margin-right: 7vw;
     margin-top: 10vh;
+    opacity: 1;
+}
+.libros{
+    width: 100vw;
+    height: 87vh;
+    display: block;
+    background: linear-gradient(to bottom right,white, #F2A104);
+    text-align: center;
+    
+}
+
+.libros h1{
+    text-align: center;
+    font-size: larger;
+    text-decoration-style: none;
+    display: block;
+    width: 99vw;
+    height: 20vh;
+}
+
+
+.card{
+
+    display: inline-block;
+    padding: 10px;
+    width: 15em;
+    height: 27.3em;
+    margin: 30px;
+    border-radius: 6px;
     overflow: hidden;
-    width: 70vw;
-    height: 70vh;
+    background: white;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor:default;
+    transition: all 1.5s ease;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.8);
+    transform: translateY(-3%);
+}
+
+.card img{
+    text-align: center;
+    width: 150px;
+    height: 200px;
+}
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido p{
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.card .contenido a{
+
+    text-decoration: none;
+    display:  inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #F2A104;
+    border: 1px solid #e49800;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.card .contenido a:hover{
+    background: #F2A104 ;
+    color: white;
 }
